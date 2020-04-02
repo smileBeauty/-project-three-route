@@ -1,0 +1,23 @@
+<!--miniprogram/pages/light-simulation-description/light-simulation-description.wxml-->
+<view>
+  <view class="title">灯光模拟</view>
+  <view class="description">下面将进行模拟夜间行驶场景灯光使用的考试，请按语言指令在<text style="color: red;">5秒内</text>做出相应的灯光操作：</view>
+  <view class="begin">请打开前照灯</view>
+  <view class="type-one">1、近光灯</view>
+  <view class="type-two">(1)通过路口；</view>
+  <view class="type-two">(2)夜间同方向近距离跟车行驶；</view>
+  <view class="type-two">(3)在窄路与非机动车回车；</view>
+  <view class="type-two">(4)有路灯照明良好；</view>
+  <view class="type-one">2、远光灯</view>
+  <view class="type-two">(1)进入无照明、照明不良的道路上行驶时；</view>
+  <view class="type-one">3、远近光交替</view>
+  <view class="type-two">(1)超车；</view>
+  <view class="type-two">(2)通过急弯；</view>
+  <view class="type-two">(3)通过坡道；</view>
+  <view class="type-two">(4)通过拱桥；</view>
+  <view class="type-two">(5)通过人行横道；</view>
+  <view class="type-two">(6)通过无红绿灯路口；</view>
+  <view class="type-one">4、示廓灯+双闪</view>
+  <view class="type-two">(1)路边临时停车；</view>
+  <view class="end">模拟夜间考试完成，请关闭所有灯光，请起步，继续完成考试。</view>
+</view>

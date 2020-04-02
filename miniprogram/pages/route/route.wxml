@@ -1,0 +1,8 @@
+<!--miniprogram/pages/route/route.wxml-->
+<view>
+  <button class="route-btn" type="default" bindtap="clickRoute" hover-class="other-button-hover" id="route-one">路线1 </button>
+  <button class="route-btn" type="default" bindtap="clickRoute" hover-class="other-button-hover" id="route-two">路线2 </button>
+  <button class="route-btn" type="default" bindtap="clickRoute" hover-class="other-button-hover" id="route-three">路线3 </button>
+  <button class="route-btn" type="default" bindtap="clickRoute" hover-class="other-button-hover" id="lightSimulationDescription">灯光模拟介绍</button>
+  <button class="route-btn" type="default" bindtap="clickRoute" hover-class="other-button-hover" id="lightSimulationPratice">灯光模拟测试</button>
+</view>

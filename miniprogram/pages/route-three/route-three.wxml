@@ -1,0 +1,4 @@
+<!--miniprogram/pages/route-three/route-three.wxml-->
+<view>
+  <image src="{{src}}" mode="aspectFit" bindtap="previewImg"></image>
+</view>

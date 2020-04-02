@@ -1,0 +1,15 @@
+<!--miniprogram/pages/light-simulation-pratice/light-simulation-pratice.wxml-->
+<view>
+  <view class="practice-question">
+    <text class="practice-question-label">Q:</text>
+    <text wx:if="{{ randomNumber !== undefined }}">{{questions[randomNumber].content}}</text>
+    <text wx:if="{{ randomNumber === undefined }}" bindtap="beginPractice">请点击此文字开始</text>
+  </view>
+  <view wx:if="{{ randomNumber !== undefined }}" >
+    <text class="{{ timer < 3 ? 'practice-timer-red' : 'practice-timer-blue' }}">{{ timer }}</text>
+    <text class="{{ result.includes('错') ? 'practice-timer-red practice-result' : 'practice-timer-blue practice-result' }}" bindtap="beginPractice">{{ result }}</text>
+  </view>
+  <view wx:if="{{ randomNumber !== undefined }}">
+    <button wx:for="{{ options }}" wx:key="item" class="practice-option-btn" type="default" bindtap="chooseOption" hover-class="practice-option-btn-hover" bindtap="selectOption" id="{{item}}">{{item}}</button>
+  </view>
+</view>

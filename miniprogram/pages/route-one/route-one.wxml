@@ -1,0 +1,4 @@
+<!--miniprogram/pages/route-one/route-one.wxml-->
+<view>
+  <image src="{{src}}" mode="aspectFit" bindtap="previewImg"></image>
+</view>

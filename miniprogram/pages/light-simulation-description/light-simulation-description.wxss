@@ -1,0 +1,11 @@
+/* miniprogram/pages/light-simulation-description/light-simulation-description.wxss */
+.title{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.type-one{
+  margin-top: 20rpx;
+}
+.type-two{
+  padding-left: 35rpx;
+}

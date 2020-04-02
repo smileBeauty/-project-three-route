@@ -1,0 +1,22 @@
+/* miniprogram/pages/light-simulation-pratice/light-simulation-pratice.wxss */
+.practice-question{
+  font-size: 35rpx;
+}
+.practice-question-label{
+  color: #1296db;
+}
+.practice-option-btn{
+  margin-bottom: 30rpx;
+}
+.practice-option-btn-hove{
+  opacity: .7;
+}
+.practice-timer-red{
+  color: red;
+}
+.practice-timer-blue{
+  color: #1296db;
+}
+.practice-result{
+  padding-left: 100rpx;
+}

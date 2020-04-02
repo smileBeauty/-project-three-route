@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/route/route",
+    "pages/route-one/route-one",
+    "pages/route-two/route-two",
+    "pages/route-three/route-three",
+    "pages/description/description",
+    "pages/light-simulation-description/light-simulation-description",
+    "pages/light-simulation-pratice/light-simulation-pratice"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "路线图",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-active.png"
+      },
+      {
+        "pagePath": "pages/route/route",
+        "text": "路线",
+        "iconPath": "images/route.png",
+        "selectedIconPath": "images/route-active.png"
+      },
+      {
+        "pagePath": "pages/description/description",
+        "text": "说明",
+        "iconPath": "images/description.png",
+        "selectedIconPath": "images/description-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
