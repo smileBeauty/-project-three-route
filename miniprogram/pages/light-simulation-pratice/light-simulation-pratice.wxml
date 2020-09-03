@@ -7,7 +7,8 @@
   </view>
   <view wx:if="{{ randomNumber !== undefined }}" >
     <text class="{{ timer < 3 ? 'practice-timer-red' : 'practice-timer-blue' }}">{{ timer }}</text>
-    <text class="{{ result.includes('错') ? 'practice-timer-red practice-result' : 'practice-timer-blue practice-result' }}" bindtap="beginPractice">{{ result }}</text>
+    <text wx:if="{{ result === '超时错误点击此处测试下一题' || result === '答错了点击此处测试下一题' }}" class="practice-timer-red practice-result" bindtap="beginPractice">{{ result }}</text>
+    <text wx:if="{{ result === '答对了点击此处测试下一题' }}" class="practice-timer-blue practice-result" bindtap="beginPractice">{{ result }}</text>
   </view>
   <view wx:if="{{ randomNumber !== undefined }}">
     <button wx:for="{{ options }}" wx:key="item" class="practice-option-btn" type="default" bindtap="chooseOption" hover-class="practice-option-btn-hover" bindtap="selectOption" id="{{item}}">{{item}}</button>
